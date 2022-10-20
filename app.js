@@ -15,4 +15,12 @@ if(data[2] == 'add') {
     var oldNote = read()
 
     add(note, oldNote)
+
+
+}
+if(data[2] == 'read') {
+    
+    const present = require('./present')
+    
+    present(read())
 }
